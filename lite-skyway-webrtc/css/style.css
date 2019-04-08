@@ -1,0 +1,94 @@
+/* normalize */
+/* body { margin: 0; } */
+
+/* global styles */
+video {
+  background-color: #dde;
+  width: 100%;
+  border: solid 1px #468;/*ê¸*/
+  border-radius: 6px;/*äpÇÃä€Ç›*/
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.note {
+  text-align: center;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+/*  width: 980px; */
+}
+
+/* p2p-media styles */
+.p2p-media {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.p2p-media .remote-stream {
+  width: 50%;
+  text-align: center;
+}
+
+.p2p-media .local-stream {
+  width: 30%;
+}
+
+/* p2p-data styles */
+.p2p-data {
+  display: grid;
+  grid-template-columns: 35% 1fr;
+  margin: 0 8px;
+}
+
+.p2p-data .messages {
+  background-color: #eee;
+  min-height: 150px;
+  max-height: 200px;
+  overflow: scroll;
+  font-size: smaller;
+  padding: 4px;
+  margin-top: 0;
+}
+
+/* room */
+.room {
+  display: grid;
+/*  grid-template-columns: 30% 70% 42%;*/
+  grid-template-columns: 25% 75% ;
+  gap: 4px;
+  margin: 0 4px;
+}
+
+.room .remote-streams {
+  background-color: #f6fbff;
+ text-align: center;
+}
+
+.room .messages {
+  background-color: #2b249c;
+  min-height: 80px;
+  max-height: 250px;
+  overflow:auto;
+  font-size: x-small;
+  color: #d1d0e2;
+  padding: 8px;
+  margin-top: 0;
+}
+
+/* broadcast */
+.broadcast {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.broadcast .broadcast-stream {
+  width: 50%;
+}
